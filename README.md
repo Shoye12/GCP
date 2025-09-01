@@ -1,8 +1,10 @@
 # Day-8: Private App on Custom VPC + Regional External HTTP(S) Load Balancer + Custom Domain (GoDaddy + Cloud DNS)
 #Private App on Custom VPC
 ->Private App → An application that is not exposed directly to the public internet, accessible only from within a secure network (e.g., employees, VPN, or load balancer).
+
 ->Custom VPC (Virtual Private Cloud) → A user-defined virtual network in GCP that provides isolated, secure IP ranges, subnets, and routing for your app.
-👉 Together: Your app runs inside your own custom network in GCP, giving you more control over IP ranges, subnets,
+
+ Together: Your app runs inside your own custom network in GCP, giving you more control over IP ranges, subnets,
 and security rules compared to the default VPC.
 
 #Regional External HTTP(S) Load Balancer
